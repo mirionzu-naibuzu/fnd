@@ -1,1 +1,129 @@
-Welcome to my Website!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        header {
+            background-color: #0066cc;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .top-nav {
+            background-color: #333;
+            color: white;
+            padding: 0.5rem 0;
+        }
+        .top-nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            margin: 0;
+        }
+        .top-nav ul li {
+            margin: 0 15px;
+        }
+        .top-nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .main-content {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 20px;
+            padding: 20px 0;
+        }
+        .featured-story {
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .sidebar {
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .story {
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>News Website</h1>
+        </div>
+    </header>
+
+    <nav class="top-nav">
+        <ul>
+            <li><a href="#">Breaking News</a></li>
+            <li><a href="#">Politics</a></li>
+            <li><a href="#">Sports</a></li>
+            <li><a href="#">Technology</a></li>
+            <li><a href="#">Entertainment</a></li>
+        </ul>
+    </nav>
+
+    <div class="container main-content">
+        <div class="featured-story">
+            <h2>Breaking News Headline</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula.</p>
+            <img src="/api/placeholder/600/400" alt="Featured Story" style="max-width: 100%; height: auto;">
+        </div>
+        <div class="sidebar">
+            <h3>Latest News</h3>
+            <div class="story">
+                <h4>Top Story 1</h4>
+                <p>Brief description of the story...</p>
+            </div>
+            <div class="story">
+                <h4>Top Story 2</h4>
+                <p>Brief description of the story...</p>
+            </div>
+            <div class="story">
+                <h4>Top Story 3</h4>
+                <p>Brief description of the story...</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 News Website. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Optional interactivity can be added here
+        document.querySelectorAll('.top-nav a').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                alert(`You clicked on ${e.target.textContent}`);
+            });
+        });
+    </script>
+</body>
+</html>
