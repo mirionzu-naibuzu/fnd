@@ -11,7 +11,7 @@ body {
             margin: 0 auto;
         } 
         .logo {
-            olor: red;  
+            color: red;  
             width: 10px;        
         }    
         header {       
@@ -19,6 +19,8 @@ body {
             color: white;
             padding: 1rem 0;
             text-align: center;
+            flex-direction: row;        
+            align-content: center;
             justify-content: flex-start;
         }
         .top-nav {
