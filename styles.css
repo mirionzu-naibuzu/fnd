@@ -21,7 +21,6 @@ body {
             text-align: center;
             flex-direction: row;        
             align-content: center;
-            justify-content: flex-start;
         }
         .top-nav {
             background-color: #333;
