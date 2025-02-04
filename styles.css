@@ -11,10 +11,9 @@ body {
             margin: 0 auto;
         }
         .logo {
-            width: 100px;
-            height: 100px; 
-            align-items: center;
-            justify-content: center;        
+            width: 90%;
+            height: 90%; 
+            margin: 0 auto;     
         }    
         header {
             justify-items: flex-start;        
