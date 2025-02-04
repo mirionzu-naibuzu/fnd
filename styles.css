@@ -17,6 +17,8 @@ body {
         header {       
             background-color: #0066cc;
             color: white;
+            padding: 1rem 0;
+            text-align: center;        
             flex-direction: row;        
             align-content: center;
         }
