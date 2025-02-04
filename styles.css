@@ -7,24 +7,26 @@ body {
         }
         .container {
             text-align: center;        
-/*             width: 90%;
+/*          width: 90%;
             max-width: 1200px;
             margin: 0 auto; */
         } 
         .logo {
             position: absolute;
             left: 20px;
-            width: 80px;
-            height: 80px;        
-/*             color: red;  
+            width: 100px;
+            height: 100px;        
+/*          color: red;  
             width: 10px;         */
         }    
         header {
             display: flex;
+            background-color: #0066cc;  
+            color: white;        
             align-items: center;
             justify-content: center;
             position: relative;                    
-/*             background-color: #0066cc;
+/*          background-color: #0066cc;
             color: white;
             padding: 1rem 0;
             text-align: center;        
