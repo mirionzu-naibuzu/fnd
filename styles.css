@@ -10,12 +10,11 @@ body {
             max-width: 1200px;
             margin: 0 auto;
         } 
-        header {
-            justify-items: flex-start;        
+        header {       
             background-color: #0066cc;
             color: white;
             padding: 1rem 0;
-            font-size: 40px;
+            font-size: 20px;
             text-align: center;
         }
         .top-nav {
