@@ -17,6 +17,7 @@ body {
             justify-content: center;        
         }    
         header {
+            justify-items: flex-start;        
             background-color: #0066cc;
             color: white;
             padding: 1rem 0;
