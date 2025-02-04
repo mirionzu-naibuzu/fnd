@@ -9,19 +9,14 @@ body {
             width: 90%;
             max-width: 1200px;
             margin: 0 auto;
-        }
-        .logo {
-            width: auto;
-            height: auto; 
-            margin-left: 2rem;
-        }  
+        } 
         header {
+            justify-items: flex-start;        
             background-color: #0066cc;
             color: white;
             padding: 1rem 0;
             font-size: 40px;
-            display: flex;
-            align-items: center;
+            text-align: center;
         }
         .top-nav {
             background-color: #333;
