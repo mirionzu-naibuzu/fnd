@@ -11,7 +11,8 @@ body {
             margin: 0 auto;
         } 
         .logo {
-            background-color: red;        
+            background-color: red;  
+            width: auto;        
         }    
         header {       
             background-color: #0066cc;
